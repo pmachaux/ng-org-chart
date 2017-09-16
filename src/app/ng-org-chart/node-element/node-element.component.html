@@ -1,0 +1,4 @@
+<div inject-node-element [component]="componentType" [data]="dataNode"></div>
+<div *ngIf="dataNode && dataNode.children && dataNode.children.length > 0 && currentDepth < maxDepth">
+  <children-elements [data]="dataNode.children" [currentDepth]="currentDepth + 1" [parentNode]="dataNode"></children-elements>
+</div>

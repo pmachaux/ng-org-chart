@@ -1,0 +1,5 @@
+<div class="org-chart-children-elements">
+  <div *ngFor="let item of data">
+    <node-element [data]="item" [currentDepth]="currentDepth" [parentNode]="parentNode"></node-element>
+  </div>
+</div>

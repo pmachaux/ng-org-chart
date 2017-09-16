@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  data = {
+    id: 1,
+    children: [
+      {id:2}, {id:3, children: [{id:4}]}
+    ]
+  }
 }
