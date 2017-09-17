@@ -1,0 +1,29 @@
+$border-style: 1px solid darkred;
+
+.vertical-organization{
+  padding-top: 20px;
+  position: relative;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  display: block;
+  text-align: center;
+}
+.vertical-organization::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: $border-style;
+  width: 0;
+  height: 20px;
+}
+
+.node-element {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 5px;
+}
+

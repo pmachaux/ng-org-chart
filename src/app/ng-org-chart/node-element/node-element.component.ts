@@ -6,7 +6,7 @@ import {DefaultNodeTemplateComponent} from "../default-node-template/default-nod
 @Component({
   selector: 'node-element',
   templateUrl: './node-element.component.html',
-  styleUrls: ['./node-element.component.css']
+  styleUrls: ['./node-element.component.scss']
 })
 export class NodeElementComponent implements OnInit {
 

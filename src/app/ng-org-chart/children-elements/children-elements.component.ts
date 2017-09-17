@@ -1,11 +1,10 @@
-import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
-import {OrgChartService} from "../services/org-chart.service";
-import {Subscription} from "rxjs";
+import {Component, Input} from '@angular/core';
+
 
 @Component({
   selector: 'children-elements',
   templateUrl: './children-elements.component.html',
-  styleUrls: ['./children-elements.component.css']
+  styleUrls: ['./children-elements.component.scss']
 })
 export class ChildrenElementsComponent {
 
